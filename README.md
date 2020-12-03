@@ -12,5 +12,6 @@ This is a portfolio main site. It was built based on a free template.<!-- https:
 Project is created with:
  - HTML5
  - CSS3
+ - JavaScript
  - RWD
 	
