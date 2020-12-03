@@ -1577,26 +1577,6 @@ hr.invis1 {
     background: url("uploads/code.jpg") no-repeat;
 }
 
-.design-wrapper {
-    overflow: hidden;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    -webkit-transform: translateX(50%);
-    transform: translateX(50%);
-}
-
-.design-image {
-    display: block;
-    width: 100%;
-    height: 100%;
-    position: relative;
-    -webkit-transform: translateX(-50%);
-    transform: translateX(-50%);
-    background: url("uploads/design.jpg") no-repeat;
-}
 
 .filter-button-group{
 	border-radius: 0px;
@@ -1634,19 +1614,24 @@ hr.invis1 {
 .gallery-single {
 	position: relative;
     overflow: hidden;
-	border-radius: 50%;
+	border-radius: 100px;
 	-webkit-box-shadow: 0 0 10px #ccc;
 	box-shadow: 0 0 10px #ccc;
 }
-
+.gallery-single img{
+    width: 100%;
+    max-height: 250px;
+    padding: 30px;
+    text-align: center;
+}
 .gallery-list .img-overlay {
-	border-radius: 100%;
+	border-radius: 50%;
     position: absolute;
     top: 10px;
     left: 10px;
     right: 10px;
     bottom: 10px;
-    background: rgba(250, 250, 248, 0.7);
+    background: rgba(250, 250, 248, 0.9);
     color: #35424C;
     opacity: 0;
     -webkit-transition: all .5s;
